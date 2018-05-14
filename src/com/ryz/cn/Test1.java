@@ -8,7 +8,7 @@ public class Test1 {
 
 	public static void main(String[] args) {
 		Map map = new HashMap();
-		map.put("zhangsan", "1");
+		map.put("zhangsan1", "1");
 		map.put("zhangsan", null);
 		map.put(null, null);
 		System.out.println(map);
